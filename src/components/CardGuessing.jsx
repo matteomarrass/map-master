@@ -27,7 +27,7 @@ export default function App(){
     return(
         <div className="game">
             {gameOver ? (<div className="scoreSection">
-                            You get {score} flags out of {questions.length}! Congratulations! 🏆
+                            Hai indovinato {score} bandiere su {questions.length}! Congratulazioni! 🏆
                             <div><button onClick={ refreshPage } className='scoreButton'>Riparti</button></div>
                         </div>) : (
                         <div className="cardGuessing">
