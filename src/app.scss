@@ -10,7 +10,7 @@ $secondFont: 'Josefin Sans', sans-serif;
 //Universal Style
 
 body{
-    background-color: $firstColour;
+    background-color: $fifthColour;
 }
 
 
@@ -20,7 +20,7 @@ body{
     text-align: center;
     h2{
         font-family: $firstFont;
-        color: $thirdColour;
+        color: $firstColour;
         font-size: 50px;
     }
     button{
@@ -49,8 +49,11 @@ body{
     background-color: $thirdColour;
     text-align: center;
     img{
-        width: 15%;
+        margin: 1em;
+        width: 500px;
         height: auto;
+        border: .2em solid $fourthColour;
+        border-radius: .2em;
     }
     button{
         padding: 1em;
@@ -65,6 +68,34 @@ body{
     }
     button:hover{
         background-color: $firstColour;
+        color: $fifthColour;
+    }
+}
+
+//ScoreSection
+
+.scoreSection{
+    background-color: $firstColour;
+    font-family: $secondFont;
+    color: $fifthColour;
+    font-size: 3em;
+    text-align: center;
+    padding: 2.2em;
+    display: flex;
+    flex-direction: column;
+    button{
+        font-family: $secondFont;
+        padding: .3em;
+        font-size: 1em;
+        color: $firstColour;
+        background-color: $thirdColour;
+        border: none;
+        border-radius: .2em;
+        margin: 1em;
+        transition: .5s;
+    }
+    button:hover{
+        background-color: $fourthColour;
         color: $fifthColour;
     }
 }

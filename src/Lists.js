@@ -1,6 +1,6 @@
 const questions = [
     {
-        questionImage: '../flags/UK.png',
+        questionImage: require('./UK.png'),
         answerOptions: [
             {answerText: 'UK', isCorrect: true},       
             {answerText: 'Italia', isCorrect: false},       
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Estonia.png',
+        questionImage: require('./Estonia.png'),
         answerOptions: [
             {answerText: 'Messico', isCorrect: false},       
             {answerText: 'Marocco', isCorrect: false},       
@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Colombia.png',
+        questionImage: require('./Colombia.png'),
         answerOptions: [
             {answerText: 'Nigeria', isCorrect: false},       
             {answerText: 'Colombia', isCorrect: true},       
@@ -27,7 +27,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/India.png',
+        questionImage: require('./India.png'),
         answerOptions: [
             {answerText: 'Italia', isCorrect: false},       
             {answerText: 'India', isCorrect: true},       
@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Italy.png',
+        questionImage: require('./Italy.png'),
         answerOptions: [
             {answerText: 'Angola', isCorrect: false},       
             {answerText: 'Bulgaria', isCorrect: false},       
@@ -45,7 +45,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Latvia.png',
+        questionImage: require('./Latvia.png'),
         answerOptions: [
             {answerText: 'Finlandia', isCorrect: false},       
             {answerText: 'Lettonia', isCorrect: true},       
@@ -54,7 +54,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Lithuania.png',
+        questionImage: require('./Lithuania.png'),
         answerOptions: [
             {answerText: 'Angola', isCorrect: false},       
             {answerText: 'Italia', isCorrect: false},       
@@ -63,7 +63,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Mexico.png',
+        questionImage: require('./Mexico.png'),
         answerOptions: [
             {answerText: 'Messico', isCorrect: true},       
             {answerText: 'Corea Del Nord', isCorrect: false},       
@@ -72,7 +72,7 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Poland.png',
+        questionImage: require('./Poland.png'),
         answerOptions: [
             {answerText: 'Angola', isCorrect: false},       
             {answerText: 'Polonia', isCorrect: true},       
@@ -81,14 +81,14 @@ const questions = [
         ]
     },
     {
-        questionImage: '../flags/Spain.png',
+        questionImage: require('./Spain.png'),
         answerOptions: [
             {answerText: 'Francia', isCorrect: false},       
             {answerText: 'Albania', isCorrect: false},       
             {answerText: 'Grecia', isCorrect: false},       
             {answerText: 'Spain', isCorrect: true},       
         ]
-    },
+    }
 ]
 
 export default questions;

@@ -1,5 +1,5 @@
 body {
-  background-color: #3F826D;
+  background-color: #F2D0A4;
 }
 
 .homepage {
@@ -7,7 +7,7 @@ body {
 }
 .homepage h2 {
   font-family: "Indie Flower", cursive;
-  color: #F7F7FF;
+  color: #3F826D;
   font-size: 50px;
 }
 .homepage button {
@@ -35,8 +35,11 @@ body {
   text-align: center;
 }
 .cardGuessing img {
-  width: 15%;
+  margin: 1em;
+  width: 500px;
   height: auto;
+  border: 0.2em solid #545E75;
+  border-radius: 0.2em;
 }
 .cardGuessing button {
   padding: 1em;
@@ -51,6 +54,32 @@ body {
 }
 .cardGuessing button:hover {
   background-color: #3F826D;
+  color: #F2D0A4;
+}
+
+.scoreSection {
+  background-color: #3F826D;
+  font-family: "Josefin Sans", sans-serif;
+  color: #F2D0A4;
+  font-size: 3em;
+  text-align: center;
+  padding: 2.2em;
+  display: flex;
+  flex-direction: column;
+}
+.scoreSection button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.3em;
+  font-size: 1em;
+  color: #3F826D;
+  background-color: #F7F7FF;
+  border: none;
+  border-radius: 0.2em;
+  margin: 1em;
+  transition: 0.5s;
+}
+.scoreSection button:hover {
+  background-color: #545E75;
   color: #F2D0A4;
 }
 
