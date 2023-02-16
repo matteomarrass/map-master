@@ -1,0 +1,57 @@
+body {
+  background-color: #3F826D;
+}
+
+.homepage {
+  text-align: center;
+}
+.homepage h2 {
+  font-family: "Indie Flower", cursive;
+  color: #F7F7FF;
+  font-size: 50px;
+}
+.homepage button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1em;
+  font-size: 2em;
+  color: #3F826D;
+  background-color: #F7F7FF;
+  border: none;
+  border-radius: 0.2em;
+  transition: 0.5s;
+}
+.homepage button:hover {
+  color: #F2D0A4;
+  background-color: #545E75;
+}
+
+.logo-quiz {
+  width: 10%;
+  height: auto;
+}
+
+.cardGuessing {
+  background-color: #F7F7FF;
+  text-align: center;
+}
+.cardGuessing img {
+  width: 15%;
+  height: auto;
+}
+.cardGuessing button {
+  padding: 1em;
+  margin: 1em;
+  background-color: #545E75;
+  color: #F7F7FF;
+  border: none;
+  border-radius: 0.2em;
+  transition: 0.5s;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+}
+.cardGuessing button:hover {
+  background-color: #3F826D;
+  color: #F2D0A4;
+}
+
+/*# sourceMappingURL=app.css.map */

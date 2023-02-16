@@ -1,0 +1,70 @@
+//Variables
+$firstColour: #3F826D;
+$secondColour: #C03221;
+$thirdColour: #F7F7FF;
+$fourthColour: #545E75;
+$fifthColour: #F2D0A4;
+$firstFont: 'Indie Flower', cursive;
+$secondFont: 'Josefin Sans', sans-serif;
+
+//Universal Style
+
+body{
+    background-color: $firstColour;
+}
+
+
+//Homepage
+
+.homepage{
+    text-align: center;
+    h2{
+        font-family: $firstFont;
+        color: $thirdColour;
+        font-size: 50px;
+    }
+    button{
+        font-family: $secondFont;
+        padding: 1em;
+        font-size: 2em;
+        color: $firstColour;
+        background-color: $thirdColour;
+        border: none;
+        border-radius: .2em;
+        transition: .5s;
+    }
+    button:hover{
+        color: $fifthColour;
+        background-color: $fourthColour;
+    }
+}
+
+//Start Guessing
+.logo-quiz{
+    width: 10%;
+    height: auto;
+}
+
+.cardGuessing{
+    background-color: $thirdColour;
+    text-align: center;
+    img{
+        width: 15%;
+        height: auto;
+    }
+    button{
+        padding: 1em;
+        margin: 1em;
+        background-color: $fourthColour;
+        color: $thirdColour;
+        border: none;
+        border-radius: .2em;
+        transition: .5s;
+        font-family: $secondFont;
+        font-size: 1.2em;
+    }
+    button:hover{
+        background-color: $firstColour;
+        color: $fifthColour;
+    }
+}
