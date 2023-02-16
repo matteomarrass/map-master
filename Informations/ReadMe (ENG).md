@@ -1,4 +1,4 @@
-# Map Master Quiz (IT)
+# Map Master Quiz (ENG)
 Hi there, that's a project about a quiz game about geography called Map Master.
 A flag and four options will be provided to you, your goal is to choose the right one!
 ### The technologies that I used are:
