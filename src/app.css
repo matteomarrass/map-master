@@ -37,7 +37,7 @@ body {
 .cardGuessing img {
   margin: 1em;
   width: 500px;
-  height: auto;
+  height: 300px;
   border: 0.2em solid #545E75;
   border-radius: 0.2em;
 }
@@ -81,6 +81,36 @@ body {
 .scoreSection button:hover {
   background-color: #545E75;
   color: #F2D0A4;
+}
+
+@media (min-width: 720px) and (max-width: 1750px) {
+  .homepage img {
+    width: 20%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .homepage img {
+    width: 60%;
+    height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 719px) {
+  .homepage img {
+    max-width: 200px;
+    height: auto;
+  }
+  .logo-quiz {
+    width: 20%;
+    height: auto;
+  }
+  .cardGuessing img {
+    max-width: 320px;
+    height: auto;
+  }
+  .scoreSection {
+    font-size: 2em;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
