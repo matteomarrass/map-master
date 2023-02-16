@@ -1,6 +1,7 @@
 # Map Master Quiz (IT)
 Ciao a tutti, questo è il mio progetto su un gioco a quiz sulla geografia chiamato Map Master.
 Verrà visualizzata una bandiera alla volta e il tuo obiettivo è quello di scegliere la risposta corretta tra le proposte!
+** VEDI QUÌ L'ANTEPRIMA!** https://stupendous-daifuku-c013bc.netlify.app/
 ### Le tecnologie che ho usato sono:
 * HTML
 * CSS con l'ausilio di preprocessore SASS
